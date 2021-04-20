@@ -1,30 +1,53 @@
+body{
+  width: auto;
+  padding: 5px;
+  background-color: red;
+}
+h1{
+  font-size: 15vh;
+  align-self: flex-end;
+}
+h4{
+  font-size: 4vh;
+  justify-content: center;
+}
+h5{
+  font-size: 4vh;
+}
 .intro {
   display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
   height: 100vh;
+  width: auto;
     /* background-color: turquoise; */
   background-image: url("introBackground.jpg");
   background-size: cover;
 }
-.saturs{
-  display: flex;
-}
-.piedavajums{
-height: 30%;
-width: 40%;
-margin-left: 7%;
-padding-left: 0
-padding-top: 10%;
-
-
-
-
-}
-
 .title{
-  font-size: 20vh;
-  height: 30%;
+  display: flex;
+  padding-left: 7%;
+  height: 45%;
   width: 100%;
-  padding-top: 7%;
+/* background-color: coral; */
+
+}
+
+.piedavajums{
+  display: flex;
+justify-content: center;
+
+height: 30%;
+width: 50%;
+/* background-color: lightcoral; */
+margin-left: 0;
+margin-top: 10%;
+padding-left: 7%;
+
+}
+.social{
+  height: 10%;
+  /* background-color: lightgray; */
   padding-left: 7%;
 }
 
@@ -37,7 +60,9 @@ padding-top: 10%;
 
 .davanas {
   height: 80vh;
+  background-color: lightblue;
 }
 .netikaiZiedi{
   height: 80vh;
+  background-color: lightpink;
 }
