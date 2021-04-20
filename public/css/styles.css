@@ -1,0 +1,22 @@
+
+.title{
+  font-size: 8rem;
+  padding-top: 7%;
+}
+
+.intro {
+  height: 100vh;
+
+  /* background-color: turquoise; */
+  background-image: url("introBackground.jpg");
+  background-size: cover;
+}
+
+.ziedi {
+  height: 80vh;
+  background-color: lightgreen;
+}
+
+.davanas {
+  height: 80vh;
+}
