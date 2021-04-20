@@ -1,16 +1,34 @@
-
-.title{
-  font-size: 8rem;
-  padding-top: 7%;
-}
-
 .intro {
+  display: flex;
   height: 100vh;
-
-  /* background-color: turquoise; */
+    /* background-color: turquoise; */
   background-image: url("introBackground.jpg");
   background-size: cover;
 }
+.saturs{
+  display: flex;
+}
+.piedavajums{
+height: 30%;
+width: 40%;
+margin-left: 7%;
+padding-left: 0
+padding-top: 10%;
+
+
+
+
+}
+
+.title{
+  font-size: 20vh;
+  height: 30%;
+  width: 100%;
+  padding-top: 7%;
+  padding-left: 7%;
+}
+
+
 
 .ziedi {
   height: 80vh;
@@ -18,5 +36,8 @@
 }
 
 .davanas {
+  height: 80vh;
+}
+.netikaiZiedi{
   height: 80vh;
 }
