@@ -16,7 +16,7 @@ h1{
 h2{
   font-size: 7vh;
   padding-left: 7%;
-  padding-top: 5%;
+  padding-top: 2%;
 }
 h3{
   font-size: 13vh;
@@ -63,8 +63,11 @@ margin-left: 0;
 margin-top: 5%;
 margin-bottom: 3%;
 padding-left: 7%;
-
 }
+/* .border{
+  border-bottom: 5px dotted #333333;
+} */
+
 .social{
   display: flex;
   /* background-color: lightgray; */
