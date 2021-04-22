@@ -1,81 +1,96 @@
 body{
+  display: flex;
+  flex-direction: column;
+  color: #333333;
   width: auto;
   padding: 5px;
-  background-color: red;
+  background-color: #038c8c;
+background-image: url("https://www.transparenttextures.com/patterns/brushed-alum.png");
 }
 h1{
-  font-size: 15vh;
-  align-self: flex-end;
+  font-size: 25vh;
+
+  padding-top: 10%;
 }
 h2{
-  font-size: 5vh;
+  font-size: 7vh;
   padding-left: 7%;
+  padding-top: 5%;
 }
-h4{
-  font-size: 4vh;
-  justify-content: center;
+p{
+  font-size: 5vh;
+  color: #333333;
+  padding-bottom: 3%;
 }
-h5{
-  font-size: 4vh;
-}
+
 img{
   width: 25%;
+  border: solid;
+  margin-left: 25px;
 }
 .intro {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: space-around;
   height: 100vh;
-  width: auto;
-    /* background-color: turquoise; */
   background-image: url("introBackground.jpg");
   background-size: cover;
-  background-position: 0 -250px;
-
 }
 .title{
-  display: flex;
-  padding-left: 7%;
-  height: 45%;
-  width: 100%;
-/* background-color: coral; */
+margin-left: 0;
+padding-left: 7%;
 
 }
 
-.piedavajums{
+.apraksts{
   display: flex;
-justify-content: center;
-
-height: 30%;
-width: 50%;
+width: 60%;
 /* background-color: lightcoral; */
 margin-left: 0;
-margin-top: 10%;
+margin-top: 5%;
+margin-bottom: 3%;
 padding-left: 7%;
 
 }
 .social{
-  height: 10%;
+  display: flex;
   /* background-color: lightgray; */
   padding-left: 7%;
+  align-self: flex-end;
 }
 
 
 
 .ziedi {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
   height: 80vh;
-  background-color: lightgreen;
+  background-color: #038c8c;
+background-image: url("https://www.transparenttextures.com/patterns/brushed-alum.png");
 }
+
+
 .karuselis{
   display: flex;
-  justify-content: space-between;
-  padding-top: 5%;
+  align-content: center;
+  justify-content: center;
+  padding-top: 3%;
 }
 .davanas {
+  display: flex;
+  flex-direction: column;
   height: 80vh;
-  background-color: lightblue;
+  background-color: #038C7F;
+background-image: url("https://www.transparenttextures.com/patterns/brushed-alum.png");
+
 }
+
 .netikaiZiedi{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
   height: 80vh;
-  background-color: lightpink;
+  background-color: #038c8c;
+background-image: url("https://www.transparenttextures.com/patterns/brushed-alum.png");
 }
