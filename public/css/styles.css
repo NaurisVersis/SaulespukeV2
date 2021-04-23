@@ -28,7 +28,7 @@ h3 {
   font-family: 'Dancing Script', cursive;
   font-weight: 400;
   letter-spacing: 3px;
-  color: rgba(238, 238, 238, 0.7);
+  color: rgba(238, 238, 238, 0.8);
   padding-right: 7%;
   font-weight: bold;
 }
@@ -44,7 +44,13 @@ img {
   border: solid;
   margin-left: 25px;
 }
-
+a{
+  padding-left: 15px;
+  color: #333333;
+}
+a :hover{
+  color: #c1fdfd;
+}
 address {
   font-size: 6vh;
   padding-left: 7%;
