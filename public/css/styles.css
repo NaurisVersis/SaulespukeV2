@@ -56,7 +56,9 @@ address {
   padding-left: 7%;
   padding-top: 5%;
 }
-
+footer{
+  align-self: center;
+}
 .atdalitajs {
   height: 15px;
   width: auto;
