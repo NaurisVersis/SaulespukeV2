@@ -71,15 +71,18 @@ address {
   margin-left: 0;
   padding-left: 7%;
 }
-
+.intro .apraksts{
+  width: 40%;
+  font-weight: 700;
+}
 .apraksts {
   display: flex;
   width: 60%;
   /* background-color: lightcoral; */
   margin-left: 0;
-  margin-top: 5%;
   margin-bottom: 3%;
   padding-left: 7%;
+  padding-top: 3%;
 }
 
 /* .border{
