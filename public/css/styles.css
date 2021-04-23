@@ -3,7 +3,7 @@ body{
   flex-direction: column;
   color: #333333;
   width: auto;
-  padding: 5px;
+  padding: 0.5%;
   background-color: #038c8c;
 background-image: url("https://www.transparenttextures.com/patterns/brushed-alum.png");
 }
@@ -48,6 +48,7 @@ address{
   height: 100vh;
   background-image: url("introBackground.jpg");
   background-size: cover;
+  margin-bottom: 0.5%
 }
 .title{
 margin-left: 0;
@@ -80,8 +81,9 @@ padding-left: 7%;
 .ziedi {
   display: flex;
   flex-direction: column;
-  background-color: #038c8c;
+  background-color: #c1fdfd;
 background-image: url("https://www.transparenttextures.com/patterns/brushed-alum.png");
+
 }
 
 
@@ -94,15 +96,15 @@ background-image: url("https://www.transparenttextures.com/patterns/brushed-alum
 .davanas {
   display: flex;
   flex-direction: column;
-  background-color: #038C7F;
+  background-color: #8ae4e4;
 background-image: url("https://www.transparenttextures.com/patterns/brushed-alum.png");
-
+margin-top: 0.5%;
 }
 
 .netikaiZiedi{
   display: flex;
   flex-direction: column;
-  background-color: #038c8c;
+  background-color: #c1fdfd;
 background-image: url("https://www.transparenttextures.com/patterns/brushed-alum.png");
 }
 .kazas{
