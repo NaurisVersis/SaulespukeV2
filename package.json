@@ -3,15 +3,23 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-sass": "^5.0.0"
+  },
+  "devDependencies": {},
   "scripts": {
-    "scss": "node-sass --watch scss -o css"
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NaurisVersis/SaulespukeV2.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1",
-    "node-sass": "^5.0.0"
-  }
+  "bugs": {
+    "url": "https://github.com/NaurisVersis/SaulespukeV2/issues"
+  },
+  "homepage": "https://github.com/NaurisVersis/SaulespukeV2#readme"
 }
