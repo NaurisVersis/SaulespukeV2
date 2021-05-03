@@ -1,10 +1,13 @@
 import Footer from "./Footer";
+import Intro from "./intro";
 
 function App() {
   return (
     <div>
-    <h1>Hello World</h1>
-    <Footer/></div>
+    <Intro />
+    <Footer/>
+    
+    </div>
   )
 }
 
