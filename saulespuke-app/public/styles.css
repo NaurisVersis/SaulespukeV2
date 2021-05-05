@@ -1,0 +1,148 @@
+body {
+    display: flex;
+    flex-direction: column;
+    color: #333333;
+    font-family: 'Montserrat', sans-serif;
+    width: auto;
+    padding: 1%;
+    background-color: #038c8c;
+    background-image: url("https://www.transparenttextures.com/patterns/brushed-alum.png");
+  }
+  
+  h1 {
+    color: #191919;
+    font-size: 35vh;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 500;
+    padding-top: 10%;
+  }
+  
+  h2 {
+    font-size: 7vh;
+    padding-left: 7%;
+    padding-top: 3%;
+  }
+  
+  h3 {
+    font-size: 13vh;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: rgba(238, 238, 238, 0.8);
+    padding-right: 7%;
+    font-weight: bold;
+  }
+  
+  p {
+    font-size: 3vh;
+    color: #333333;
+    padding-bottom: 3%;
+  }
+  footer p{
+    padding-bottom: 0;
+    margin-bottom: 0;
+    align-self: center;
+  }
+  img {
+    border: solid;
+    margin-left: 25px;
+  }
+  a{
+    padding-left: 15px;
+    color: #333333;
+  }
+  a :hover{
+    color: #c1fdfd;
+  }
+  address {
+    font-size: 6vh;
+    padding-left: 7%;
+    padding-top: 5%;
+    padding-bottom: 3%;
+  }
+  footer{
+    align-self: center;
+    padding-top: 1%;
+  
+  }
+  .atdalitajs {
+    height: 15px;
+    width: auto;
+  }
+  
+  .intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100vh;
+    background-image: url("introBackground.jpg");
+    background-size: cover;
+    border-radius: 20px;
+  }
+  
+  .title {
+    margin-left: 0;
+    padding-left: 7%;
+  }
+  .intro .apraksts{
+    width: 40%;
+    font-weight: 700;
+  }
+  .apraksts {
+    display: flex;
+    width: 60%;
+    /* background-color: lightcoral; */
+    margin-left: 0;
+    margin-bottom: 3%;
+    padding-left: 7%;
+    padding-top: 3%;
+  }
+  
+  .social {
+    display: flex;
+    /* background-color: lightgray; */
+    padding-left: 7%;
+    align-self: flex-end;
+  }
+  
+  .ziedi,
+  .netikaiZiedi {
+    display: flex;
+    flex-direction: column;
+    background-color: #c1fdfd;
+    background-image: url("https://www.transparenttextures.com/patterns/brushed-alum.png");
+    border-radius: 20px;
+  }
+  
+  .karuselis {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding-top: 3%;
+  }
+  
+  .davanas,
+  .kazas {
+    display: flex;
+    flex-direction: column;
+    background-color: #8ae4e4;
+    background-image: url("https://www.transparenttextures.com/patterns/brushed-alum.png");
+    border-radius: 20px;
+  }
+  
+  
+  
+  .kontakti {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: auto;
+    background-image: url("contactsBackground.jpg");
+    background-size: cover;
+    border-radius: 20px;
+  }
+  
+  .karte {
+    padding-left: 7%;
+  }
+  
