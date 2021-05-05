@@ -30,7 +30,7 @@ function Carousel (props) {
                   src2="\images\ziedi\ziedi10.jpg"
                   src3="\images\ziedi\ziedi11.jpg"
                   src4="\images\ziedi\ziedi0.jpg"
-                />>
+                />
             </div>
 
             <button class="carousel-control-prev" type="button" data-bs-target={ "#"+ props.carouselID} data-bs-slide="prev">
