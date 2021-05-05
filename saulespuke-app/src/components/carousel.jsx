@@ -1,35 +1,39 @@
-function Carousel () {
+import Slide from "./slide";
 
+
+
+function Carousel () {
+  // function importAll(r) {
+  //   let images = {};
+  //   r.keys().map((item, index) => { images[item.replace('./', '')] = r(item); });
+  //   return images;
+  // }
+  
+  // const images = importAll(require.context('../public/images/ziedi', false, /\.jpg$/));
+  
+  // console.log(images);
     return (
         <div>
             <div id="carouselZiedi" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="container karuselis">
-              <img src="public\images\ziedi\ziedi1.jpg" class="d-block w-25" alt="..."></img>
-              <img src="public\images\ziedi\ziedi2.jpg" class="d-block w-25" alt="..."></img>
-              <img src="public\images\ziedi\ziedi3.jpg" class="d-block w-25" alt="..."></img>
-              <img src="public\images\ziedi\ziedi4.jpg" class="d-block w-25" alt="..."></img>
-
-            </div>
-              </div>
+                <Slide />
 
             <div class="carousel-item">
               <div class="container karuselis">
-                <img src="public\images\ziedi\ziedi5.jpg" class="d-block w-25" alt="..."></img>
-                <img src="public\images\ziedi\ziedi6.jpg" class="d-block w-25" alt="..."></img>
-                <img src="public\images\ziedi\ziedi7.jpg" class="d-block w-25" alt="..."></img>
-                <img src="public\images\ziedi\ziedi8.jpg" class="d-block w-25" alt="..."></img>
+                <img src="\images\ziedi\ziedi5.jpg" class="d-block w-25" alt="..."></img>
+                <img src="\images\ziedi\ziedi6.jpg" class="d-block w-25" alt="..."></img>
+                <img src="\images\ziedi\ziedi7.jpg" class="d-block w-25" alt="..."></img>
+                <img src="\images\ziedi\ziedi8.jpg" class="d-block w-25" alt="..."></img>
 
               </div>
                   </div>
 
               <div class="carousel-item">
                 <div class="container karuselis">
-                  <img src="public\images\ziedi\ziedi9.jpg" class="d-block w-25" alt="..."></img>
-                  <img src="public\images\ziedi\ziedi10.jpg" class="d-block w-25" alt="..."></img>
-                  <img src="public\images\ziedi\ziedi11.jpg" class="d-block w-25" alt="..."></img>
-                  <img src="public\images\ziedi\ziedi0.jpg" class="d-block w-25" alt="..."></img>
+                  <img src="\images\ziedi\ziedi9.jpg" class="d-block w-25" alt="..."></img>
+                  <img src="\images\ziedi\ziedi10.jpg" class="d-block w-25" alt="..."></img>
+                  <img src="\images\ziedi\ziedi11.jpg" class="d-block w-25" alt="..."></img>
+                  <img src="\images\ziedi\ziedi0.jpg" class="d-block w-25" alt="..."></img>
 
                 </div>
                     </div>
