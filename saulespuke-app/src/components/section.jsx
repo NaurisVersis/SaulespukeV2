@@ -6,7 +6,9 @@ function Section (props){
     return (
 <div class="ziedi">
 <h2>{props.title}</h2>
-   <Carousel/>
+   <Carousel
+       carouselID="carouselZiedi"
+   />
    <div class="container apraksts">
             <p>{props.content}</p>
           </div>

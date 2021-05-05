@@ -1,4 +1,4 @@
-import Image from "./image";
+
 
 
 
@@ -8,13 +8,12 @@ function Slide (props) {
 
 
     return (
-        <div class="carousel-item active props.status">
+        <div className={"carousel-item " + ( props.status || "") }>
             <div class="container karuselis">
-           <Image
-              scr="/davanas/davana1.jpg" />
-              <img src="\images\ziedi\ziedi2.jpg" class="d-block w-25" alt="..."></img>
-              <img src="\images\ziedi\ziedi3.jpg" class="d-block w-25" alt="..."></img>
-              <img src="\images\ziedi\ziedi4.jpg" class="d-block w-25" alt="..."></img>
+              <img src={props.src1} class="d-block w-25" alt="..."/>
+              <img src={props.src2} class="d-block w-25" alt="..."/>
+              <img src={props.src3} class="d-block w-25" alt="..."/>
+              <img src={props.src4} class="d-block w-25" alt="..."/>
 
             </div>
               </div>
