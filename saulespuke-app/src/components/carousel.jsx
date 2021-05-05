@@ -3,15 +3,9 @@ import Slide from "./slide";
 
 
 function Carousel () {
-  // function importAll(r) {
-  //   let images = {};
-  //   r.keys().map((item, index) => { images[item.replace('./', '')] = r(item); });
-  //   return images;
-  // }
+
   
-  // const images = importAll(require.context('../public/images/ziedi', false, /\.jpg$/));
   
-  // console.log(images);
     return (
         <div>
             <div id="carouselZiedi" class="carousel slide" data-bs-ride="carousel">
