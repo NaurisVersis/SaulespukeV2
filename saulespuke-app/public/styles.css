@@ -8,7 +8,7 @@ body {
     background-color: #038c8c;
     background-image: url("https://www.transparenttextures.com/patterns/brushed-alum.png");
   }
-  
+ 
   h1 {
     color: #191919;
     font-size: 35vh;
@@ -41,7 +41,7 @@ body {
   footer p{
     padding-bottom: 0;
     margin-bottom: 0;
-    align-self: center;
+    justify-content: center;
   }
   img {
     border: solid;
@@ -107,6 +107,7 @@ body {
   
   .ziedi,
   .netikaiZiedi {
+    margin-top: 15px;
     display: flex;
     flex-direction: column;
     background-color: #c1fdfd;
@@ -123,6 +124,7 @@ body {
   
   .davanas,
   .kazas {
+    margin-top: 15px;
     display: flex;
     flex-direction: column;
     background-color: #8ae4e4;
@@ -133,6 +135,7 @@ body {
   
   
   .kontakti {
+    margin-top: 15px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -144,5 +147,6 @@ body {
   
   .karte {
     padding-left: 7%;
+    height: 30%;
   }
   

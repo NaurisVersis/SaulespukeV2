@@ -1,6 +1,9 @@
 function Footer () {
     return (
-        <p>Made by Nauris</p>
+        <footer>
+        <p className="text-center">Made by Nauris</p>
+        </footer>
+        
     );
 };
 
