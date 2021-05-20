@@ -12,7 +12,7 @@ function Carousel (props) {
         <div class="carousel-inner">
                 <Slide 
                 status="active"
-                  src1="\images\ziedi\ziedi1.jpg"
+                  src1={"\images\ziedi\". props.type."1.jpg"}
                   src2="\images\ziedi\ziedi2.jpg"
                   src3="\images\ziedi\ziedi3.jpg"
                   src4="\images\ziedi\ziedi4.jpg"
