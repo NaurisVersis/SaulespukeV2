@@ -12,7 +12,9 @@ function Carousel (props) {
         <div class="carousel-inner">
                 <Slide 
                 status="active"
-                  src1={"\images\ziedi\". props.type."1.jpg"}
+                //Vot šeit vajadzētu lai mainās tie bilžu nosaukumi.. lai tas "ziedi0" būtu {props.type+randomNr}
+                //un tas arī mainās atkarībā kāda type Section ir.. 
+                  src1={{"\images\"+ props.imageType + "\"+ props.imageType + "1.jpg"}}
                   src2="\images\ziedi\ziedi2.jpg"
                   src3="\images\ziedi\ziedi3.jpg"
                   src4="\images\ziedi\ziedi4.jpg"

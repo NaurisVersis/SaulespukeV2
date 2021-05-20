@@ -8,7 +8,7 @@ function Section (props){
 <h2>{props.title}</h2>
    <Carousel
        carouselID={"carousel"+props.type}
-       type={props.type}
+       imageType={props.type}
    />
    <div class="container apraksts">
             <p>{props.content}</p>
