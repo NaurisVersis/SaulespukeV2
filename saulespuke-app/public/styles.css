@@ -65,6 +65,10 @@ body {
     padding-top: 1%;
   
   }
+  ul{
+    
+    justify-content: space-between;
+  }
   .atdalitajs {
     height: 15px;
     width: auto;
@@ -106,8 +110,10 @@ body {
   }
  
   .tabs{
+    margin-left: 7%;
     list-style: none;
     display: flex;
+    padding-top: 3%;
   }
   .ziedi,
   .netikaiZiedi {
