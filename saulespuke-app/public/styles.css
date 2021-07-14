@@ -45,10 +45,11 @@ body {
   }
   img {
     border: solid;
-    margin-left: 25px;
+    gap: 1em;
+    /* margin-left: 25px; */
   }
   a{
-    padding-left: 15px;
+    text-decoration: none;
     color: #333333;
   }
   a :hover{
@@ -60,19 +61,15 @@ body {
     padding-top: 5%;
     padding-bottom: 3%;
   }
+  iframe{
+    width: 300px;
+    height: 300px;
+  }
   footer{
     align-self: center;
     padding-top: 1%;
   
-  }
-  ul{
-    
-    justify-content: space-between;
-  }
-  .atdalitajs {
-    height: 15px;
-    width: auto;
-  }
+  }  
   
   .intro {
     display: flex;
@@ -110,12 +107,39 @@ body {
   }
  
   .tabs{
-    margin-left: 7%;
+    font-size: 3vh;
+    width: 100%;
+    height: auto;
+    padding-left: 7%;
+    /* background-color: coral; */
+   border: black;
     list-style: none;
-    display: flex;
+   
     padding-top: 3%;
+    
   }
-  .ziedi,
+.even-colums{
+  display: flex;
+  gap: 1em;
+}
+.even-colums > * {
+  width: 100%;
+}
+
+
+  .section{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    background-color: #c1fdfd;
+    background-image: url("https://www.transparenttextures.com/patterns/brushed-alum.png");
+    border-radius: 20px; 
+  }
+  /* .active{
+    background-color: #8ae4e4;
+    background-image: url("https://www.transparenttextures.com/patterns/brushed-alum.png");
+  } */
+  /* .ziedi,
   .netikaiZiedi {
     margin-top: 15px;
     display: flex;
@@ -123,7 +147,7 @@ body {
     background-color: #c1fdfd;
     background-image: url("https://www.transparenttextures.com/patterns/brushed-alum.png");
     border-radius: 20px;
-  }
+  } */
   
   .karuselis {
     display: flex;
@@ -132,7 +156,7 @@ body {
     padding-top: 3%;
   }
   
-  .davanas,
+  /* .davanas,
   .kazas {
     margin-top: 15px;
     display: flex;
@@ -140,7 +164,7 @@ body {
     background-color: #8ae4e4;
     background-image: url("https://www.transparenttextures.com/patterns/brushed-alum.png");
     border-radius: 20px;
-  }
+  } */
   
 
   .kontakti {
@@ -148,7 +172,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: auto;
+    height: 100vh;
     background-image: url("contactsBackground.jpg");
     background-size: cover;
     border-radius: 20px;
@@ -156,6 +180,6 @@ body {
   
   .karte {
     padding-left: 7%;
-    height: 30%;
+    /* height: 40%; */
   }
   

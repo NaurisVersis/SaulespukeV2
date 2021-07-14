@@ -2,7 +2,7 @@ import Carousel from "./carousel";
 
 function Section(props) {
   return (
-    <div className={props.type}>
+    <div className="">
       <h2>{props.title}</h2>
       <Carousel carouselID={"carousel" + props.type} imageType={props.type} />
       <div className="container apraksts">
