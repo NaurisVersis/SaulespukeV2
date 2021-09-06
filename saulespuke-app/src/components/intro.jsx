@@ -6,9 +6,8 @@ function Intro() {
       </div>
       <div className="container apraksts col-xl-6">
         <p>
-          Ja jums ir divi klaipi maizes, apmainiet vienu pret ziediem. Maize
-          baro miesu, ziedi-dvēseli. <br></br>
-          /Antuāns de Sent Ekziperī/{" "}
+          "Ja jums ir divi klaipi maizes, apmainiet vienu pret ziediem. Maize baro miesu, ziedi-dvēseli." <br></br>
+          /Antuāns de Sent Ekziperī/
         </p>
       </div>
       <div className="container-fluid social">

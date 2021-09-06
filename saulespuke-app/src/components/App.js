@@ -10,36 +10,42 @@ function App() {
       <Intro />
       <Tabs>
         <Section
-          type="kazas"
-          title="Līgavu pušķi un kāzu noformējumi"
-          content="kaut kas par kāzu noformējumiem"
+          type="ziedi"
+          title="Grieztie ziedi "
+          content="„Protams, bez ziediem es varētu iztikt, bet tie man palīdz saglabāt cieņu pašam pret sevi, jo tie apliecina, ka es pilnībā neesmu ikdienas rūpju sasaistīts. Tie ir manas brīvības apliecinājums” 
+
+/ R. Tagore/ "
         />
         <Section
           type="netikaiZiedi"
-          title="Ne tikai ziedu kompozīcijas"
-          content="Etiam porta dictum aliquam. Aliquam posuere ex quis lacus sagittis fermentum. Vestibulum faucibus a justo eu porta."
+          title="Ziedu pušķi un kompozīcijas "
+          content="Ziedu kompozīcijas iespējams izveidot gan grozos, gan kastēs, tās ilgāk saglabā svaigumu, jo ziedi tiek ievietoti oāzēs. Ziedu pušķi vai kompozīcijas jāpasūta vismaz 3 dienas iepriekš. "
         />
+        <Section
+        type="netikaiZiedi"
+        title="Saldie un sāļie pušķi un kompozīcijas"
+        content="Pušķi, kas nevīst, roku darbs, katrs ziediņš un lapiņa veidoti ar mīlestību un labām domām. Visdažādākie risinājumi oriģināliem apsveikumiem." />
+        <Section
+          type="kazas"
+          title="Kāzu floristika"
+          content="Kāzas nav iedomājamas bez ziediem. Palīdzēsim piepildīt Jūsu vēlmes un ieceres, radot un veidojot līgavas pušķi, līgavaiņa piespraudi, ziedu pušķus vecākiem, rotas vedējiem, automašīnas dekoru. Kā arī noformēsim laulību ceremonijas vietu, foto stūrīti vai sienu, izdekorēsim telpas. Ar prieku uzbursim Jūsu sapni!" />
         <Section
           type="davanas"
           title="Dāvanas"
-          content="Quisque ut vestibulum ligula. Etiam blandit, purus ut lacinia interdum, dui lectus dictum sem, eu ullamcorper lacus nibh ut leo. Maecenas dapibus consectetur augue eget dignissim. Suspendisse ultricies consectetur justo sit amet aliquet.
-                Curabitur viverra laoreet magna, in congue mauris elementum in. Etiam porta dictum aliquam. Aliquam posuere ex quis lacus sagittis fermentum. Vestibulum faucibus a justo eu porta."
+          content="Mūsu veikaliņa piedāvājumā ir dažādi Latvijas uzņēmēju ražojumi: Dabas pērles kosmētika; Baltic candles; Dobeles sveces. Vienmēr meklējam, ko jaunu piedāvāt Jūsu vērtējumam. "
         />
         <Section
-          type="ziedi"
-          title="Ziedi"
-          content="Etiam porta dictum aliquam. Aliquam posuere ex quis lacus sagittis fermentum. Vestibulum faucibus a justo eu porta."
+          type="baloni"
+          title="Baloni un balonu pušķi"
+          content="Kā balons, kas gaisā uzmests vējā,
+Nu brīvi slīd vēl šeit, drīz tur, 
+Te zemu slīd, te augšā aizrauts spēji, 
+Tas nav nevienam, vien vējš to augšā tur... "
         />
         <Section
-          type="jaunums"
-          title="Kaut kas jauns"
-          content="jānotestē vai izdodas ielikt vajadzīgo"
-        />
-         <Section
-          type="ziedi"
-          title="Kaut kas jaunāks"
-          content="Nulla lacinia lectus eget erat placerat dictum. Aenean nec hendrerit risus. Pellentesque vel ante ut ligula pharetra tincidunt nec non purus. Maecenas sit amet posuere diam. Nunc mauris neque, pellentesque sit amet quam sit amet, volutpat hendrerit nisl. Ut tincidunt ligula consequat, molestie felis sed, finibus elit. Donec condimentum sollicitudin nisl, ac euismod dolor convallis eu. Duis justo lacus, cursus non euismod ut, pellentesque sit amet urna. Nullam non volutpat purus, sed pellentesque sem. Donec et malesuada augue."
-        />
+          type="seras"
+          title="Sēru floristika"
+          content="Ziedi kā pēdējais mīlestības, cieņas un goda apliecinājums. Gan tradicionāli, gan personalizēti  pušķi, štrausi, vainagi, zārku dekori, krustu vainadziņi, sēru lentas. Iespējams kompozīcijas vai vainagus sagatavot oāzēs. Tas ir ļoti ērti, ja uz pēdējām atvadām jābrauc tālāks ceļš. "/>
       </Tabs>
 
       <Contacts />
